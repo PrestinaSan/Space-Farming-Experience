@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eef2c441cbac5a247aa49ce83a0b6643, type: 3}
+  m_Name: WildPotato
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 755c88e8fd199cc4fab88bbb040e9695, type: 3}
+  drops:
+  - {fileID: 11400000, guid: 31e04884457d3344b95ffc081764f660, type: 2}
+  dropCount: 01000000
+  dropChance:
+  - 1
+  width: 1
+  height: 1
+  spawnRate: 0.04
+  health: 1
+  hasCollision: 0
+  toolNeeded: 2
+  description: 
+  biomes:
+  - Purple
+  farmableVariant: {fileID: 21300000, guid: 519b3ba0671c7594d9e4468bbe87f7c3, type: 3}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89121559ff56eef47b13f9d60606c2fb, type: 3}
+  m_Name: Corn
+  m_EditorClassIdentifier: 
+  image: {fileID: 21300000, guid: 3c847e3026c19d843bfaad7a7ba29d1a, type: 3}
+  stackable: 1
+  itemID: 8
+  itemType: 3
+  description: A husked bundle made of tightly packed rows. Pale interior segments
+    are arranged evenly along a central core. Forms along upright stalks.
+  specialText: 
+  baseHealthiness: -1
+  baseHunger: 4
+  baseHydration: 2
+  baseTastiness: -1
+  healthiness: 0
+  hunger: 0
+  hydration: 0
+  tastiness: 0
+  cooked: 0

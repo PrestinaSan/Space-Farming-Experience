@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eef2c441cbac5a247aa49ce83a0b6643, type: 3}
+  m_Name: WildCorn
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 3288f358dc58ffc469ed95d257c2ba78, type: 3}
+  drops:
+  - {fileID: 11400000, guid: ac2003d0b4bf7e24692d36bf4ccad550, type: 2}
+  dropCount: 01000000
+  dropChance:
+  - 1
+  width: 1
+  height: 1
+  spawnRate: 0.05
+  health: 1
+  hasCollision: 0
+  toolNeeded: 2
+  description: 
+  biomes:
+  - Yellow
+  farmableVariant: {fileID: 21300000, guid: 57efbd55d8aa9a042b59dc3ad15920d0, type: 3}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89121559ff56eef47b13f9d60606c2fb, type: 3}
+  m_Name: Green Stew
+  m_EditorClassIdentifier: 
+  image: {fileID: 21300000, guid: e4be1d26155ceb744bbd46c0c4794cb2, type: 3}
+  stackable: 1
+  itemID: 21
+  itemType: 1
+  description: A perfect combination of the world's 3 fungi.
+  specialText: 
+  baseHealthiness: 10
+  baseHunger: 35
+  baseHydration: 20
+  healthiness: 0
+  hunger: 0
+  hydration: 0

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 004888b3c1bff0f48807b80ed3f0899a, type: 3}
+  m_Name: Farm Tasty Flower
+  m_EditorClassIdentifier: 
+  saplingSprite: {fileID: 21300000, guid: b5f5ff4469127fb4b805f1e065a4966d, type: 3}
+  grownSprite: {fileID: 21300000, guid: 8c1abb72e9882fc4490d8adbfd4cb904, type: 3}
+  timeToGrow: 1.5
+  drops:
+  - {fileID: 11400000, guid: 9346b3d7fc73e1543b69ff5c742dadfe, type: 2}
+  - {fileID: 11400000, guid: 9346b3d7fc73e1543b69ff5c742dadfe, type: 2}
+  dropCount: 0300000001000000
+  dropChance:
+  - 1
+  - 0.5
+  width: 1
+  height: 1
+  hasCollision: 0
+  toolNeeded: 2

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 004888b3c1bff0f48807b80ed3f0899a, type: 3}
+  m_Name: Farm Tree
+  m_EditorClassIdentifier: 
+  saplingSprite: {fileID: 21300000, guid: a8248cb41b0796f40bf488d579714182, type: 3}
+  grownSprite: {fileID: 21300000, guid: f47885ff63b8e874aa16d1121a0b0b44, type: 3}
+  timeToGrow: 2
+  drops:
+  - {fileID: 11400000, guid: e4fef30ee360f4d4dbcbea3692eaf1a2, type: 2}
+  - {fileID: 11400000, guid: dcc13381d56dba44f83a7667c8d17f55, type: 2}
+  - {fileID: 11400000, guid: e4fef30ee360f4d4dbcbea3692eaf1a2, type: 2}
+  - {fileID: 11400000, guid: 836468dacda3346418abb3c7088511b1, type: 2}
+  dropCount: 03000000020000000200000001000000
+  dropChance:
+  - 1
+  - 1
+  - 0.5
+  - 0.01
+  width: 1
+  height: 1
+  hasCollision: 1
+  toolNeeded: 1

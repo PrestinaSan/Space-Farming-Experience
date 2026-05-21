@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89121559ff56eef47b13f9d60606c2fb, type: 3}
+  m_Name: Rice
+  m_EditorClassIdentifier: 
+  image: {fileID: 21300000, guid: f4afade42740e654cb5f061837f35171, type: 3}
+  stackable: 1
+  itemID: 7
+  itemType: 7
+  description: Small, narrow grains with a soft blue tint. Uniform in size and shape.
+    Found gathered along branching stems.
+  specialText: 
+  baseHealthiness: -1
+  baseHunger: 2
+  baseHydration: 0
+  baseTastiness: -2
+  healthiness: 0
+  hunger: 0
+  hydration: 0
+  tastiness: 0
+  cooked: 0

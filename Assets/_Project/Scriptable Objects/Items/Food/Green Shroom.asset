@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89121559ff56eef47b13f9d60606c2fb, type: 3}
+  m_Name: Green Shroom
+  m_EditorClassIdentifier: 
+  image: {fileID: 21300000, guid: e01a7ea89677ace40a2fc85fa38bc224, type: 3}
+  stackable: 1
+  itemID: 9
+  itemType: 1
+  description: A stout mushroom with a rounded dark cap and pale green stem. The
+    shape is smooth and evenly curved. Slightly bulkier than the others.
+  specialText: likes orange and purple
+  baseHealthiness: -10
+  baseHunger: 1
+  baseHydration: 0
+  baseTastiness: -10
+  healthiness: -10
+  hunger: 1
+  hydration: 0
+  tastiness: -10
+  cooked: 0
